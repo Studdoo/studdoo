@@ -1,40 +1,54 @@
 # 🎬 Studdoo
 
-### **The AI Workstation for Creators, AI Video Production & Digital Workflows**
+<p align="center">
+  <img src="assets/Studdoo.png" alt="Studdoo" width="220">
+</p>
+
+<p align="center">
+  <strong>The AI Workstation for Creators, AI Video Production & Digital Workflows</strong>
+</p>
+
+<p align="center">
+  <a href="https://studdoo.com">🌐 Website</a> •
+  <a href="https://github.com/Studdoo/studdoo">🐙 GitHub</a> •
+  <a href="https://github.com/Studdoo/studdoo/releases">📦 Releases</a>
+</p>
+
+---
+
+## 🚀 What is Studdoo?
 
 **Studdoo** is a professional desktop workspace designed to make AI-assisted content production easier to organise, faster to manage, and simpler to repeat.
 
-Instead of keeping scripts in one folder, prompts in another, generated images somewhere else, video files on the desktop, and publishing information in separate notes or spreadsheets, Studdoo brings the production workflow into **one organised workspace**.
+AI creation has become incredibly powerful.
+
+The problem is everything surrounding it.
+
+Creators often have:
+
+* 💡 Ideas in notes
+* 📝 Scripts in documents
+* 🎨 Image prompts in text files
+* 🎥 Video prompts somewhere else
+* 🖼️ Generated images in different folders
+* 🎬 Generated videos on the desktop
+* 🎵 Audio files in separate locations
+* 🖼️ Thumbnails stored elsewhere
+* 📤 Upload information in spreadsheets
+* 📊 Platform status tracked manually
+* 🔄 The same information copied and pasted repeatedly
+
+Studdoo is designed to bring that production workflow into **one organised desktop workspace**.
 
 > **Create the project once. Studdoo keeps the production organised.**
 
 ---
 
-## 🚀 Why Studdoo?
+# 🧩 The Problem
 
-AI generation has become incredibly powerful.
+AI tools can generate incredible content, but production quickly becomes difficult to manage.
 
-The problem is everything that happens **around** AI generation.
-
-A single AI video can involve:
-
-* 💡 Ideas
-* 📝 Scripts
-* 🖼️ Image prompts
-* 🎥 Video prompts
-* 🎬 Multiple scenes
-* 🎭 Character references
-* 📁 Generated images
-* 🎞️ Generated videos
-* 🎵 Audio
-* 🖼️ Thumbnails
-* 📤 Publishing
-* 📊 Platform status
-* 🔄 Revisions and new generations
-
-Without a structured workflow, this quickly becomes a collection of folders, files, notes and copied prompts.
-
-### The traditional workflow
+A typical workflow can look like:
 
 ```text
 Idea
@@ -45,11 +59,11 @@ Script
  ↓
 Prompt document
  ↓
-Image generator
+AI image generator
  ↓
 Random image folder
  ↓
-Video generator
+AI video generator
  ↓
 Random video folder
  ↓
@@ -61,40 +75,38 @@ Final video
  ↓
 Spreadsheet
  ↓
-"Did I upload this already?"
+"Did I upload this yet?"
 ```
 
-### The Studdoo workflow
+As the number of projects increases, this becomes increasingly difficult to maintain.
+
+Studdoo focuses on the organisational layer around AI creation.
 
 ```text
-                    ┌─────────────────────┐
-                    │      🎬 STUDDOO     │
-                    │    AI WORKSTATION   │
-                    └──────────┬──────────┘
-                               │
-                         PROJECT WORKSPACE
-                               │
-          ┌────────────────────┼────────────────────┐
-          │                    │                    │
-       📝 Script            🧠 Prompts          🎬 Scenes
-          │                    │                    │
-          └────────────────────┼────────────────────┘
-                               │
-                         📁 PROJECT FILES
-                               │
-       ┌────────────┬──────────┼──────────┬────────────┐
-       │            │          │          │            │
-    🖼 Images     🎥 Videos   🎵 Audio  🖼 Thumbnail  🎬 Final
-                               │
-                               ▼
-                       📤 PUBLISHING STATUS
-                               │
-                  YouTube • TikTok • Instagram
-                               │
-                           Facebook
+                         ┌─────────────────────┐
+                         │       STUDDOO       │
+                         │    AI WORKSTATION   │
+                         └──────────┬──────────┘
+                                    │
+                              PROJECT WORKSPACE
+                                    │
+              ┌─────────────────────┼─────────────────────┐
+              │                     │                     │
+           📝 Script             🎨 Prompts            🎬 Scenes
+              │                     │                     │
+              └─────────────────────┼─────────────────────┘
+                                    │
+                              📁 PROJECT FILES
+                                    │
+       ┌──────────────┬─────────────┼─────────────┬──────────────┐
+       │              │             │             │              │
+   🖼 Images      🎥 Videos      🎵 Audio      🖼 Thumbnail   🎬 Final
+                                    │
+                                    ▼
+                              📤 PUBLISHING
+                                    │
+                   YouTube • TikTok • Instagram • Facebook
 ```
-
-Studdoo is designed to become the **organisation layer around AI-assisted production**.
 
 ---
 
@@ -102,7 +114,7 @@ Studdoo is designed to become the **organisation layer around AI-assisted produc
 
 ## 🧠 AI Production Workspace
 
-Studdoo is designed around the way creators actually work with AI.
+Studdoo is built around real AI-assisted production workflows.
 
 A project can contain:
 
@@ -110,9 +122,10 @@ A project can contain:
 * Image prompts
 * Video prompts
 * Scene information
-* SEO metadata
-* Project assets
+* SEO information
+* Production metadata
 * Generated media
+* Project files
 * Production status
 * Publishing status
 
@@ -120,49 +133,51 @@ The project becomes the **source of truth** for the production.
 
 ---
 
-# 🎬 Scene-Based Video Production
+## 🎬 Scene-Based Production
 
-AI video projects are often easier to manage as individual scenes rather than one large block of text.
+AI video projects are often easier to manage as individual scenes.
 
-A Studdoo project can track scenes independently:
+Studdoo supports scene-oriented workflows such as:
 
 ```text
 Scene 1
 ├── Image Prompt
-├── 🖼 Image Generated
+├── Image Generated ✓
 ├── Video Prompt
-└── 🎥 Video Generated
+└── Video Generated ✓
 
 Scene 2
 ├── Image Prompt
-├── 🖼 Image Generated
+├── Image Generated ✓
 ├── Video Prompt
-└── 🎥 Video Generated
+└── Video Generated
 
 Scene 3
 ├── Image Prompt
-├── 🖼 Image Generated
+├── Image Generated
 ├── Video Prompt
-└── 🎥 Video Generated
+└── Video Generated
 ```
 
-Each scene can track its own production progress.
+This makes it easier to work through a production one scene at a time.
 
-### Scene status
+### Scene progress
+
+Scenes can represent different production states:
 
 * 🟠 Not started
 * 🔵 Partially complete
 * 🟢 Complete
 
-This makes unfinished scenes immediately visible.
+Creators can quickly identify what still needs attention.
 
 ---
 
 # 📁 Automatic Project Organisation
 
-Creating a project shouldn't require manually creating the same folders every time.
+Studdoo can automatically create a structured directory when a new production project is created.
 
-Studdoo can automatically create a consistent production structure such as:
+A project can be organised into:
 
 ```text
 Project Name/
@@ -174,14 +189,21 @@ Project Name/
 └── Final Video/
 ```
 
-This is particularly useful when managing a large number of AI-generated videos.
+This removes repetitive folder creation and gives every project a predictable structure.
 
-Instead of:
+### Why structured folders matter
+
+A small production might only contain a few files.
+
+A large production library can contain hundreds or thousands.
+
+Without consistent organisation:
 
 ```text
 Desktop/
 ├── image-final.png
 ├── image-final2.png
+├── image-final-new.png
 ├── video-new.mp4
 ├── video-new-new.mp4
 ├── audio2.wav
@@ -189,19 +211,43 @@ Desktop/
 └── stuff/
 ```
 
-every project has a predictable structure.
+With Studdoo:
+
+```text
+Projects/
+├── Project 001/
+│   ├── Raw Images/
+│   ├── Raw Videos/
+│   ├── Audio/
+│   ├── Thumbnail/
+│   └── Final Video/
+│
+├── Project 002/
+│   ├── Raw Images/
+│   ├── Raw Videos/
+│   ├── Audio/
+│   ├── Thumbnail/
+│   └── Final Video/
+│
+└── Project 003/
+    └── ...
+```
+
+The objective is simple:
+
+**Less file hunting. Less repetitive setup. More organised production.**
 
 ---
 
 # 📝 Prompt Management
 
-AI production can involve dozens or hundreds of prompts.
+AI production often involves large amounts of prompt text.
 
-Studdoo keeps prompts attached to the projects and scenes they belong to.
+Studdoo keeps prompts attached to the project and scene they belong to.
 
-### 🖼️ Image prompts
+### 🎨 Image prompts
 
-Prompts can contain details such as:
+Image prompts can contain information such as:
 
 * Character appearance
 * Environment
@@ -212,32 +258,33 @@ Prompts can contain details such as:
 * Props
 * Atmosphere
 * Quality requirements
+* Reference instructions
 
 ### 🎥 Video prompts
 
-Video-generation instructions can include:
+Video prompts can contain:
 
 * Camera movement
 * Character movement
 * Facial expressions
 * Hand gestures
 * Environmental movement
-* Animation
+* Animation instructions
 * Timing
 * Atmosphere
-* Motion direction
+* Motion requirements
 
-This reduces the need to repeatedly search through separate documents and notes.
+Keeping these prompts inside the project makes them easier to find, review and reuse.
 
 ---
 
 # 🎭 Character & Visual Consistency
 
-Character-based AI production introduces another major challenge:
+Character-based AI production introduces another challenge:
 
 **consistency.**
 
-Characters can accidentally change between generations:
+Characters can unintentionally change:
 
 * Face
 * Hair
@@ -246,29 +293,32 @@ Characters can accidentally change between generations:
 * Age
 * Body proportions
 * Accessories
+* Environment
 * Visual style
 
-Studdoo's project and scene workflow keeps detailed production prompts attached to the project so creators can maintain consistent references throughout a production.
+Studdoo's project and scene workflow makes it possible to keep detailed visual instructions attached to production prompts.
 
-This can be useful for:
+This is useful for:
 
-* 🤖 AI characters
-* 🧸 Children's content
-* 🎓 Educational videos
-* 🎤 Virtual presenters
-* 📚 Storytelling
-* 🎬 Short-form video series
-* 🎭 Recurring characters
+* 🎭 AI characters
+* 🧒 Children's content
+* 📚 Educational series
+* 🎙️ Virtual presenters
+* 📖 Storytelling
+* 🎬 Recurring characters
+* 📱 Short-form video series
+
+The goal is to make important production information easy to reference throughout an entire project.
 
 ---
 
-# 🔄 The Production Layer Around AI Tools
+# 🔄 AI Tool Agnostic
 
-Studdoo is not intended to replace every AI generation tool.
+Studdoo is not intended to force creators into one specific AI generation service.
 
-Instead, it provides the **production workspace around them**.
+Instead, Studdoo acts as the **production workspace around the tools creators already use**.
 
-Creators can continue using the AI tools they prefer while keeping the surrounding workflow organised.
+A typical workflow can be:
 
 ```text
 IDEA
@@ -281,13 +331,13 @@ SCENES
  ↓
 IMAGE PROMPTS
  ↓
-IMAGE GENERATION
+AI IMAGE GENERATION
  ↓
 RAW IMAGES
  ↓
 VIDEO PROMPTS
  ↓
-VIDEO GENERATION
+AI VIDEO GENERATION
  ↓
 RAW VIDEOS
  ↓
@@ -298,46 +348,42 @@ THUMBNAIL
 FINAL VIDEO
  ↓
 PUBLISH
- ↓
-TRACK STATUS
 ```
 
-The goal is simple:
-
-> **Use the AI tools you already like. Use Studdoo to organise the production around them.**
+This allows creators to continue using their preferred AI tools while keeping the surrounding production organised.
 
 ---
 
 # 📤 Multi-Platform Publishing Tracking
 
-Publishing the same content across multiple platforms creates another organisational problem.
+Studdoo can track publishing status across major social platforms.
 
-Studdoo can track project publishing status across:
+Supported platform tracking includes:
 
 * ▶️ YouTube
 * 🎵 TikTok
 * 📸 Instagram
 * 📘 Facebook
 
-Projects can move through states such as:
+A project can move through states such as:
 
 ```text
 Draft
-  ↓
+   ↓
 Ready Upload
-  ↓
+   ↓
 Partially Uploaded
-  ↓
+   ↓
 Completed
 ```
 
-Upload timestamps can also be associated with individual platforms.
+Platform upload timestamps can also be stored.
 
-This makes it easier to manage a growing content library without relying entirely on memory or separate spreadsheets.
+This provides a simple way to understand what has already been published without maintaining a separate spreadsheet.
 
 ---
 
-# 🗂️ Structured Project Management
+# 🗂️ Project Management
 
 Projects can contain structured information including:
 
@@ -350,80 +396,124 @@ Projects can contain structured information including:
 * Image prompts
 * Video prompts
 * Scenes
-* SEO information
+* SEO title
 * Description
 * Tags
 * Hashtags
 * Production status
-* Publishing status
-* Upload timestamps
+* Upload status
+* Platform upload timestamps
 * Creation date
 
-This turns a production library into a structured workspace rather than a collection of unrelated files.
+This turns a production into a structured workspace instead of a collection of disconnected files.
 
 ---
 
-# 🧩 Templates & Repeatable Workflows
+# 📺 Channel Organisation
+
+Creators often operate multiple channels or content brands.
+
+Studdoo is designed around channel-based organisation so projects can belong to a specific production channel.
+
+This makes it easier to separate:
+
+```text
+Channel A
+├── Project 001
+├── Project 002
+└── Project 003
+
+Channel B
+├── Project 001
+├── Project 002
+└── Project 003
+```
+
+This structure is particularly useful for creators operating multiple content brands or production workflows.
+
+---
+
+# 🧩 Templates & Reusable Workflows
 
 Successful AI production workflows are often repetitive.
 
-Creators may produce:
+Creators may repeatedly use:
 
-* Daily Shorts
-* Educational series
-* Character series
-* Documentary content
-* Social campaigns
-* Multiple channels
-* Recurring video formats
+* The same project structure
+* Similar scene formats
+* Similar metadata
+* Similar prompt structures
+* Similar publishing workflows
 
-Studdoo is designed to support reusable templates and repeatable workflows so creators can start from an established production structure instead of rebuilding everything from scratch.
+Studdoo is designed to support reusable templates and workflows so creators can build on proven production systems rather than starting from zero every time.
+
+Useful applications include:
+
+* 🎬 Daily Shorts
+* 📚 Educational series
+* 🎭 Character series
+* 🎥 Documentary workflows
+* 📱 Social campaigns
+* 🏢 Studio production
+* 📺 Multi-channel content
 
 ---
 
-# 🔒 Local-First Workflow
+# 🔒 Privacy-First & Local-First
 
 Studdoo is designed around a **local-first desktop workflow**.
 
-Project organisation, prompts, metadata and local production files can remain on the creator's computer rather than requiring the entire workflow to live inside a cloud workspace.
+Project organisation, prompts, metadata and local production files can remain on the creator's computer instead of requiring the entire workflow to live inside a third-party cloud workspace.
 
-This is useful for projects involving:
+This can be valuable for creators working with:
 
 * Unreleased content
 * Private scripts
 * Client projects
-* Proprietary prompts
 * Commercial productions
+* Proprietary prompts
 * AI-generated assets
 * Business information
 
-The goal is to give creators greater control over their production environment.
-
 > **Your workspace should belong to you.**
+
+Studdoo's local-first approach is intended to give creators greater control over their production environment.
 
 ---
 
-# 🖥️ Desktop-First
+# 🖥️ Desktop First
 
 Studdoo is being developed as a desktop application for serious production workflows.
 
-### Windows
+## 🪟 Windows
 
-A Windows production build is available through GitHub Releases.
+A production Windows installer is available through GitHub Releases.
 
-### macOS
+## 🍎 macOS
 
-macOS support is being prepared and tested for desktop workflows, including Apple Silicon and Intel systems.
+A macOS production build is also being prepared for distribution and continued platform testing.
 
 The goal is to provide a consistent Studdoo experience across desktop platforms.
 
 ---
 
-# 📚 Built for Growing Content Libraries
+# 🏗️ Designed to Scale
 
-Studdoo is designed with larger production libraries in mind.
+Studdoo is not designed only for one project.
 
-A creator can organise their workspace around:
+The workflow is intended to scale from:
+
+```text
+5 projects
+   ↓
+50 projects
+   ↓
+500 projects
+   ↓
+Large production libraries
+```
+
+A creator can organise:
 
 ```text
 Channels
@@ -441,15 +531,13 @@ Channels
 └── Analytics
 ```
 
-The value of structured organisation becomes increasingly important as production grows from:
-
-**5 videos → 50 videos → 500+ videos**
-
-Studdoo is designed to provide the organisational foundation for that growth.
+The larger the production library becomes, the more valuable predictable organisation becomes.
 
 ---
 
-# 🧭 A Typical Studdoo Workflow
+# 🧭 Studdoo Workflow
+
+The core workflow is intentionally simple.
 
 ### 1. 💡 Start with an idea
 
@@ -457,7 +545,7 @@ Studdoo is designed to provide the organisational foundation for that growth.
 "Why do people dream?"
 ```
 
-### 2. 🤖 Prepare the production content
+### 2. 🤖 Prepare the production
 
 Create:
 
@@ -469,11 +557,11 @@ Create:
 
 ### 3. 📂 Create the project
 
-Studdoo creates the project workspace and folder structure.
+Studdoo organises the project structure.
 
-### 4. 🎬 Produce the scenes
+### 4. 🎬 Produce each scene
 
-Generate images and videos using your preferred tools while tracking scene progress.
+Generate images and videos while tracking scene progress.
 
 ### 5. 🎵 Add production assets
 
@@ -489,84 +577,89 @@ inside the project structure.
 
 ### 6. 📤 Publish
 
-Track publishing across supported platforms.
+Track publishing progress across platforms.
 
-### 7. 🔎 Find everything later
+### 7. 🔎 Find it later
 
-Projects remain structured and searchable instead of becoming lost among unrelated files.
+Projects remain structured and organised instead of disappearing into unrelated folders.
 
 ---
 
 # 🎯 Who Is Studdoo For?
 
+Studdoo is designed for people working with AI-assisted production.
+
 ### 🎬 Content Creators
 
-Organise large collections of AI-assisted videos.
+Manage growing libraries of AI-generated videos.
 
 ### 📱 Social Media Creators
 
-Manage Shorts, TikToks, Reels and other short-form content.
+Organise Shorts, TikToks, Reels and other short-form productions.
 
 ### 🎥 Video Producers
 
 Keep scripts, scenes, prompts and media connected.
 
-### 🤖 AI Creators
+### 🧠 AI Creators
 
 Organise workflows involving local and external AI tools.
 
 ### 🏢 Small Studios
 
-Create consistent production structures across multiple projects.
+Create consistent production structures across projects.
 
 ### 🎓 Educational Creators
 
-Manage recurring educational video series.
+Manage recurring educational content.
 
 ### 🎭 Storytellers
 
-Maintain character references and scene-based production.
+Keep characters, scenes and visual instructions organised.
 
 ---
 
-# ⚡ The Problem Studdoo Solves
+# ⚡ What Studdoo Solves
 
-Studdoo focuses on a problem that is easy to overlook:
+Studdoo is fundamentally a **workflow organisation problem solver**.
 
-**AI generation is becoming easier. Managing everything around generation is not.**
+AI generation itself is becoming easier.
 
-Studdoo focuses on the organisational layer between the idea and the finished production.
+The surrounding production process is often the difficult part.
+
+Studdoo focuses on that missing layer:
 
 ```text
-                    AI GENERATION
-                         ▲
-                         │
-                 ┌───────┴───────┐
-                 │    STUDDOO    │
-                 │               │
-                 │ Organisation  │
-                 │ Projects      │
-                 │ Prompts       │
-                 │ Scenes        │
-                 │ Assets        │
-                 │ Files         │
-                 │ Metadata      │
-                 │ Status        │
-                 └───────┬───────┘
-                         │
-                         ▼
-                  FINAL PRODUCTION
+                       AI GENERATION
+                            ▲
+                            │
+                  ┌─────────┴─────────┐
+                  │      STUDDOO      │
+                  │                   │
+                  │   Organisation    │
+                  │   Projects        │
+                  │   Prompts         │
+                  │   Scenes          │
+                  │   Assets          │
+                  │   Files           │
+                  │   Metadata        │
+                  │   Status          │
+                  │   Publishing      │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                       FINAL OUTPUT
 ```
 
-The objective is not another generic notes application.
+The objective is not to create another generic notes application.
 
-The objective is a **dedicated production operating environment for AI-assisted creators.**
+The objective is to create a **dedicated production operating environment for AI-assisted creators**.
 
 ---
 
 # 🛠️ Technology
 
-Studdoo is being developed as a cross-platform desktop application using technologies including:
+Studdoo is being developed as a cross-platform desktop application using:
 
 * **Flutter**
 * **Dart**
@@ -574,9 +667,10 @@ Studdoo is being developed as a cross-platform desktop application using technol
 * **Firebase Authentication**
 * Local filesystem management
 * Structured project data
-* Modular Flutter services and widgets
+* Modular Flutter services
+* Reusable Flutter widgets
 
-The application separates major responsibilities across:
+The application follows a modular architecture separating:
 
 ```text
 Screens
@@ -592,163 +686,166 @@ Database
 Local Filesystem
 ```
 
-This modular approach allows Studdoo to evolve as new production capabilities are added.
+This structure allows Studdoo to grow without turning the entire application into one tightly coupled system.
 
 ---
 
-# 📁 Repository
+# 📁 Production Repository
 
-The public production repository contains release information, documentation, branding assets and downloadable builds.
+The public production repository is intentionally separated from the main development workspace.
 
-```text
-Studdoo/
-│
-├── assets/
-│   └── Studdoo.png
-│
-├── docs/
-│   ├── architecture/
-│   ├── installation/
-│   ├── user-guide/
-│   └── workflows/
-│
-├── releases/
-│   └── release documentation
-│
-├── CHANGELOG.md
-├── LICENSE
-└── README.md
-```
+Repository:
 
-Production binaries are distributed through **GitHub Releases** rather than being treated as ordinary source files.
+**Studdoo/studdoo**
+
+The production repository contains the public-facing release information, documentation, branding and downloadable releases.
+
+Development work can continue separately while the public repository remains clean and focused on the product.
 
 ---
 
 # 📦 Installation
 
-## Windows
+## 🪟 Windows
 
-Download the latest Windows release from:
+Download the latest Windows release from GitHub Releases.
 
-**GitHub Releases**
+File:
 
-`Studdoo_Setup_x64.exe`
+```text
+Studdoo_Setup_x64.exe
+```
 
 Then:
 
-1. Run the installer.
-2. Follow the installation wizard.
-3. Launch Studdoo.
-4. Sign in.
-5. Create or select a channel.
-6. Create your first project.
+1. Download the installer.
+2. Run the installer.
+3. Follow the installation wizard.
+4. Launch Studdoo.
+5. Sign in.
+6. Create or select a channel.
+7. Create your first project.
 
-## macOS
+---
 
-Download the latest macOS release when available:
+## 🍎 macOS
 
-`Studdoo-Installer.dmg`
+Download the latest macOS release.
+
+File:
+
+```text
+Studdoo-Installer.dmg
+```
 
 Then:
 
 1. Open the DMG.
 2. Drag Studdoo into Applications.
 3. Launch Studdoo.
-4. Complete the initial setup.
+4. Complete initial setup.
 5. Create your first production workspace.
 
 ---
 
-# 🔐 Accounts & Authentication
+# 🔐 Authentication & Accounts
 
-Studdoo supports account-based authentication and subscription status management.
+Studdoo supports account-based authentication and subscription access management.
 
-The application can use account information to determine:
+The application can work with:
 
-* Authenticated user
+* Authenticated users
 * Account status
-* Subscription plan
+* Subscription plans
 * Pro access
 * Feature availability
 
-This provides a foundation for expanding Studdoo with additional premium capabilities while keeping the core desktop workflow centred around the user's machine.
+This provides a foundation for expanding Studdoo's premium capabilities while keeping the core desktop production workflow local-first.
 
 ---
 
 # 💎 Free & Pro Direction
 
-Studdoo is being developed around a practical free experience with additional Pro capabilities.
+Studdoo is being designed around a useful free experience with additional Pro capabilities.
 
-The goal is to make the core organisation workflow genuinely useful rather than putting basic productivity behind a paywall.
+The philosophy is simple:
 
-Future Pro capabilities may include:
+> **The core organisation workflow should be genuinely useful.**
 
-* Advanced AI workstation functionality
-* Additional automation
-* Extended production workflows
-* Advanced project tools
+Future Pro functionality may expand into areas such as:
+
+* Advanced AI workstation capabilities
+* Production automation
+* Larger workflows
+* Advanced productivity tools
 * Additional integrations
 * Advanced analytics
-* Productivity features
+* Studio features
 
-Specific features and limits may evolve during development.
+The exact feature set may evolve as Studdoo develops.
 
 ---
 
-# 🗺️ Roadmap & Future Improvements
+# 🗺️ Roadmap
 
 Studdoo is actively evolving.
 
-The roadmap focuses on **improving the existing workflow first**, then expanding into deeper AI and production capabilities.
+Future development will focus on improving the existing workflow and expanding the capabilities around AI-assisted production.
 
-### 🔄 Workflow Improvements
+### 🚀 Planned Improvements
 
 * Improved project search
-* Faster project navigation
-* Better scene management
-* More powerful templates
-* Improved metadata management
-* More flexible project organisation
-* Improved production status tracking
-
-### 🤖 AI Workstation Improvements
-
-* Local AI model integrations
-* AI model management
-* Prompt workflow improvements
-* AI-assisted project organisation
-* Automated production workflows
-* Additional AI generation integrations
-
-### 📊 Production & Publishing
-
+* Faster project workflows
+* More powerful prompt management
+* Improved scene management
+* More automation
+* Additional AI integrations
+* More production tools
+* Improved media organisation
+* More publishing integrations
 * Advanced analytics
-* More detailed publishing workflows
-* Additional platform integrations
-* Improved upload management
-* Production reporting
-* Content-library insights
-
-### ⚙️ Automation
-
-* Automated file organisation
-* Batch production workflows
-* Reusable automation pipelines
-* AI-assisted repetitive tasks
-* More powerful creator workflows
-
-### 🏢 Studio & Team Workflows
-
-* Multi-user studio workflows
-* Collaboration features
-* Shared production systems
-* Additional workspace management tools
+* Additional workflow automation
+* Improved cross-platform support
+* More creator-focused productivity features
 
 ### 💡 Community Suggestions
 
-Studdoo will continue evolving based on real creator workflows.
+Studdoo is being built with creator workflows in mind.
 
-If there is a production problem that Studdoo could solve, **open an issue or feature request** and describe the workflow you would like to improve.
+Feature suggestions and workflow ideas are welcome.
+
+If there is a production problem that Studdoo could solve, open a GitHub issue and describe:
+
+* What you are currently doing
+* What makes the workflow difficult
+* What you would like Studdoo to improve
+* An example of the workflow
+
+The best future features should come from real production problems.
+
+---
+
+# 🧪 Development Philosophy
+
+Studdoo is being developed in layers:
+
+```text
+Foundation
+    ↓
+Project Management
+    ↓
+Production Workflow
+    ↓
+AI Workstation
+    ↓
+Automation
+    ↓
+Advanced Studio Features
+```
+
+Each layer is intended to make the previous one more useful rather than simply adding features for the sake of complexity.
+
+The long-term goal is a powerful workstation that remains understandable and practical for creators.
 
 ---
 
@@ -759,14 +856,15 @@ Found a problem?
 Please use the GitHub issue tracker for:
 
 * 🐛 Bugs
-* 💡 Feature requests
+* 💡 Feature suggestions
 * 🎨 UI improvements
-* ⚡ Performance issues
-* 🖥️ Platform-specific problems
-* 🔧 Installation problems
-* 🤖 AI workflow suggestions
+* ⚡ Performance problems
+* 🪟 Windows issues
+* 🍎 macOS issues
+* 📦 Installation problems
+* 🔄 Workflow improvements
 
-When reporting a bug, include:
+When reporting a bug, please include:
 
 ```text
 Operating System:
@@ -774,34 +872,100 @@ Studdoo Version:
 What happened:
 Expected behaviour:
 Steps to reproduce:
-Screenshots / logs:
+Screenshots:
+Logs:
 ```
 
-Good issue reports help make Studdoo better for everyone.
+Clear reproduction information helps resolve problems faster.
+
+---
+
+# 📚 Documentation
+
+Additional documentation can be added under:
+
+```text
+docs/
+├── architecture/
+├── installation/
+├── user-guide/
+└── workflows/
+```
+
+The documentation will grow alongside the product.
 
 ---
 
 # 📋 Changelog
 
-See [`CHANGELOG.md`](CHANGELOG.md) for release history and version changes.
+Release history is maintained in:
+
+```text
+CHANGELOG.md
+```
+
+Each production release should document:
+
+* Version
+* Release date
+* New features
+* Improvements
+* Bug fixes
+* Platform changes
+* Known issues
 
 ---
 
-# 🏢 About Studdoo
+# 🌐 Official Links
 
-**Studdoo** is a product developed by **Sarang Productions**.
+### 🌍 Website
 
-**Studdoo** is the product identity.
+**Studdoo.com**
 
-**Sarang Productions** is the company/studio behind the product.
+### 🐙 GitHub
 
-The Studdoo project is focused on building practical software for AI-assisted creative production and digital workflows.
+**Studdoo/studdoo**
+
+### 📦 Releases
+
+Download the latest production builds from the GitHub Releases section.
+
+---
+
+# ⚖️ Privacy
+
+Studdoo's privacy approach is based around a local-first desktop workflow.
+
+For the latest legal information, privacy policy and applicable terms, please refer to the official Studdoo website.
+
+The website should always be treated as the authoritative source for the current legal and privacy documentation.
 
 ---
 
 # 📜 License
 
-License information and repository terms will be provided in the repository documentation.
+Studdoo's repository and product licensing information will be defined by the project maintainers.
+
+See the repository's license documentation for the applicable terms.
+
+---
+
+# 🏢 About Sarang Productions
+
+**Studdoo** is a product developed by **Sarang Productions**.
+
+```text
+Sarang Productions
+        │
+        └── Studdoo
+             ├── AI Workstation
+             ├── Production Workspace
+             └── Creator Tools
+```
+
+**Studdoo** is the product identity.
+
+**Sarang Productions** is the company/studio behind the product.
 
 ---
 
@@ -810,14 +974,15 @@ License information and repository terms will be provided in the repository docu
 If Studdoo is useful to your workflow:
 
 ⭐ Star the repository
-🐛 Report bugs
+🐛 Report useful bugs
 💡 Suggest improvements
-📣 Share the project
-🚀 Follow future releases
+📣 Share the project with other creators
 
-Community feedback helps shape the future of Studdoo.
+Your feedback helps shape the future of Studdoo.
 
 ---
+
+<div align="center">
 
 # 🎬 Studdoo
 
@@ -826,3 +991,7 @@ Community feedback helps shape the future of Studdoo.
 ### **Build the project once. Keep everything organised. Produce more.**
 
 **Studdoo — Your AI Production Workspace.**
+
+🌐 **studdoo.com**
+
+</div>
