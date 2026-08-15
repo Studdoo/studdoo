@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://studdoo.com">🌐 Website</a> •
   <a href="https://github.com/Studdoo/studdoo">🐙 GitHub</a> •
+   <a href="[https://github.com/Studdoo/studdoo](https://github.com/Studdoo/ComfyUI-Studdoo-Nodes)">🐙 GitHub Comfyui Nodes</a> •
   <a href="https://github.com/Studdoo/studdoo/releases">📦 Releases</a>
 </p>
 
