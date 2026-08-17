@@ -1,0 +1,6 @@
+{
+  "version": "1.0.1",
+  "changelog": "Bug fixes and improvements",
+  "windowsUrl": "https://github.com/Studdoo/studdoo/releases/latest/download/studdoo_installer.exe",
+  "macUrl": "https://github.com/Studdoo/studdoo/releases/latest/download/studdoo.dmg"
+}
