@@ -25,7 +25,16 @@
   <br>
   <em>🎬 Click to watch: Studdoo Tutorial #1 — AI Video Project Setup</em>
 </p>
+---
 
+## 📺 Video Walkthroughs
+
+| 🎬 The Problem & Solution | ⚙️ Tutorial #1: Project Setup |
+| :---: | :---: |
+| [![Studdoo Intro](https://img.youtube.com/vi/h9gFVrYiY-U/hqdefault.jpg)](https://www.youtube.com/watch?v=h9gFVrYiY-U) | [![Studdoo Setup Tutorial](https://img.youtube.com/vi/ppIAj9ARAXk/hqdefault.jpg)](https://www.youtube.com/watch?v=ppIAj9ARAXk) |
+| **Stop Losing Your AI Content** *(1:54)* | **AI Video Project Setup** *(2:51)* |
+
+---
 ---
 ---
 
