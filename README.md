@@ -1,40 +1,40 @@
-# 🎬 Studdoo
+# 🎬 Studdoo Organization
+
+Welcome to the official GitHub organization for **Studdoo** — the desktop AI content workspace built for creators, video producers, and automation workflows.
 
 <p align="center">
-  <img src="assets/Studdoo.png" alt="Studdoo" width="220">
-</p>
-
-<p align="center">
-  <strong>The AI Workstation for Creators, AI Video Production & Digital Workflows</strong>
-</p>
-
-<p align="center">
-  <a href="https://studdoo.com">🌐 Website</a> •
-  <a href="https://github.com/Studdoo/studdoo">🐙 Main GitHub</a> •
+  <a href="https://studdoo.com">🌐 Official Website</a> •
+  <a href="https://github.com/Studdoo/studdoo">📦 Main Desktop App</a> •
   <a href="https://github.com/Studdoo/ComfyUI-Studdoo-Nodes">🧩 ComfyUI Nodes</a> •
-  <a href="https://github.com/Studdoo/studdoo/releases">📦 Releases</a>
+  <a href="https://github.com/Studdoo/studdoo/releases">🚀 Latest Releases</a>
 </p>
+
+---
+
+## 📌 Featured Repositories
+
+| Repository | Description | Status |
+| :--- | :--- | :--- |
+| [**studdoo/studdoo**](https://github.com/Studdoo/studdoo) | Desktop application releases, user documentation, and issue tracker. | 🟢 Public |
+| [**studdoo/ComfyUI-Studdoo-Nodes**](https://github.com/Studdoo/ComfyUI-Studdoo-Nodes) | Custom nodes connecting local ComfyUI workflows directly to Studdoo projects. | 🟢 Public |
+
 ---
 
 ## 📺 See Studdoo in Action
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=ppIAj9ARAXk" target="_blank">
-    <img src="https://img.youtube.com/vi/ppIAj9ARAXk/maxresdefault.jpg" alt="Studdoo Tutorial #1" width="750">
+  <a href="https://www.youtube.com/watch?v=h9gFVrYiY-U" target="_blank">
+    <img src="https://img.youtube.com/vi/h9gFVrYiY-U/maxresdefault.jpg" alt="Studdoo Overview Video" width="700">
   </a>
   <br>
-  <em>🎬 Click to watch: Studdoo Tutorial #1 — AI Video Project Setup</em>
+  <em>▶️ Click to watch: Stop Losing Your AI Content — See how Studdoo organizes your entire workflow.</em>
 </p>
----
-
-## 📺 Video Walkthroughs
-
-| 🎬 The Problem & Solution | ⚙️ Tutorial #1: Project Setup |
-| :---: | :---: |
-| [![Studdoo Intro](https://img.youtube.com/vi/h9gFVrYiY-U/hqdefault.jpg)](https://www.youtube.com/watch?v=h9gFVrYiY-U) | [![Studdoo Setup Tutorial](https://img.youtube.com/vi/ppIAj9ARAXk/hqdefault.jpg)](https://www.youtube.com/watch?v=ppIAj9ARAXk) |
-| **Stop Losing Your AI Content** *(1:54)* | **AI Video Project Setup** *(2:51)* |
 
 ---
+
+### 💬 Community & Support
+- **Report Bugs & Suggest Features:** Open an issue inside [Studdoo/studdoo/issues](https://github.com/Studdoo/studdoo/issues).
+- **Official Portal:** Download production builds at [studdoo.com](https://studdoo.com).
 ---
 ---
 
