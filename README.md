@@ -14,7 +14,19 @@
   <a href="https://github.com/Studdoo/ComfyUI-Studdoo-Nodes">🧩 ComfyUI Nodes</a> •
   <a href="https://github.com/Studdoo/studdoo/releases">📦 Releases</a>
 </p>
+---
 
+## 📺 See Studdoo in Action
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ppIAj9ARAXk" target="_blank">
+    <img src="https://img.youtube.com/vi/ppIAj9ARAXk/maxresdefault.jpg" alt="Studdoo Tutorial #1" width="750">
+  </a>
+  <br>
+  <em>🎬 Click to watch: Studdoo Tutorial #1 — AI Video Project Setup</em>
+</p>
+
+---
 ---
 
 ## 🚀 What is Studdoo?
