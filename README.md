@@ -60,6 +60,20 @@ Studdoo is designed to bring that production workflow into **one organised deskt
 > **Create the project once. Studdoo keeps the production organised.**
 
 ---
+[![Studdoo Introduction](https://img.youtube.com/vi/h9gFVrYiY-U/maxresdefault.jpg)](https://www.youtube.com/watch?v=h9gFVrYiY-U "Watch Studdoo Intro")
+---
+
+## 📺 See Studdoo in Action
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ppIAj9ARAXk" target="_blank">
+    <img src="https://img.youtube.com/vi/ppIAj9ARAXk/maxresdefault.jpg" alt="Studdoo Tutorial #1" width="750">
+  </a>
+  <br>
+  <em>🎬 Click to watch: Studdoo Tutorial #1 — AI Video Project Setup</em>
+</p>
+
+---
 
 # 🧩 The Problem
 
